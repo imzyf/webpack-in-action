@@ -19,7 +19,7 @@ module.exports = {
       exclude: /node_modules/,
     }],
   },
-
+  // devtool: 'source-map',
   plugins: [new htmlPlugin({
     title: path.basename(__dirname)
   })],
