@@ -32,3 +32,16 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 ```bash
 npm i -D vue vue-loader vue-template-compiler css-loader
 ```
+
+## 自定义 loader
+
+```bash
+cd force-strict-loader
+npm init -y
+npm i -D loader-utils
+```
+
+```bash
+npm init -y
+npm i -D ./force-strict-loader
+```
