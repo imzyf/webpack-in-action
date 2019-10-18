@@ -26,3 +26,9 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 ## file-loader
 
 > 07-file-loader 可以当成一个模板文件夹
+
+## vue-loader
+
+```bash
+npm i -D vue vue-loader vue-template-compiler css-loader
+```
