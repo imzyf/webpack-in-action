@@ -25,16 +25,31 @@ module.exports = {
     })],
     module: {
         rules: [{
-            test: /\.css$/,
-            use: ['style-loader', {
-                loader: 'css-loader',
-                options: {
-                    sourceMap: true,
+                enforce: 'pre',
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'eslint-loader',
+            },
+            {
+                use: ['style-loader', {
+                    loader: 'css-loader',
+                    options: {
+                        sourceMap: true,
+                    },
+                }, ], // 倒序处理
+                // 被加载模块是 resource
+                resource: {
+                    test: /\.css$/,
+                    exclude: /node_modules/, // 与 include 同时存在是优先级比 include 高
+                    include: /src/,
                 },
-            }, ], // 倒序处理
-            exclude: /node_modules/, // 与 include 同时存在是优先级比 include 高
-            include: /src/,
-        }]
+                // 加载着是 issuer - 只有 src/js 下的 .js 文件引用 css 文件，这个条才生效
+                issuer: {
+                    test: /\.js$/,
+                    exclude: /src\/(?!(js)\/).*/,
+                }
+            }
+        ]
     }
 
 }
