@@ -22,3 +22,7 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 - babel-loader 使 Babel 与 Webpack 协同工作的模块
 - @babel/core Babel 编译器的核心模块
 - @babel/preset-env 官方推荐的预置器
+
+## file-loader
+
+> 07-file-loader 可以当成一个模板文件夹
