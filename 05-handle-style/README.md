@@ -11,3 +11,11 @@ npm install --save-dev mini-css-extract-plugin
 ```bash
 npm i -D sass-loader node-sass
 ```
+
+## postcss
+
+```bash
+npm i -D postcss-loader
+
+npm i -D autoprefixer
+```
