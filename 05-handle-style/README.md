@@ -19,3 +19,14 @@ npm i -D postcss-loader
 
 npm i -D autoprefixer
 ```
+
+```bash
+npx browserslist
+```
+
+## stylelint
+
+```bash
+npm i -D stylelint
+npm install stylelint-config-recommended --save-dev
+```
