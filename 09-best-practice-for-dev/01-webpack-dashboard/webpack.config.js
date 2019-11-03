@@ -5,6 +5,7 @@ const {
     CleanWebpackPlugin
 } = require('clean-webpack-plugin');
 const webpack = require('webpack'); // to access built-in plugins
+const DashboardPlugin = require("webpack-dashboard/plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -52,6 +53,8 @@ module.exports = {
             chunkFilename: '[id].css',
             ignoreOrder: false, // Enable to remove warnings about conflicting order
         }),
+
+        new DashboardPlugin(),
     ],
     module: {
         rules: [{
