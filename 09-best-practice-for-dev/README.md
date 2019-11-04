@@ -5,3 +5,5 @@
 ```bash
 npm install webpack-dashboard --save-dev
 ```
+
+## webpack merge
