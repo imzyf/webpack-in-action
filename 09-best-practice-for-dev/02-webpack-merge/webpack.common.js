@@ -19,7 +19,6 @@ module.exports = {
         // publicPath: '/dist/', // 资源的请求位置 
     },
 
-
     optimization: {
         minimizer: [
             new TerserPlugin({
