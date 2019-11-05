@@ -30,3 +30,12 @@ npx browserslist
 npm i -D stylelint
 npm install stylelint-config-recommended --save-dev
 ```
+
+## postcss-cssnext
+
+```bash
+npm install postcss-preset-env -D
+npm install postcss-import -D
+npm install cssnano -D
+npm install postcss-custom-properties --save-dev
+```
