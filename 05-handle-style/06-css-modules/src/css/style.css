@@ -1,0 +1,22 @@
+:root {
+    --highlightColor: white;
+}
+
+body {
+    text-align: center;
+    padding: 100px;
+    color: var(--highlightColor);
+    background-color: #09c;
+}
+
+.title {
+    color: rosybrown;
+}
+
+::placeholder {
+    color: gray;
+}
+
+.red-title {
+    color: red;
+}
