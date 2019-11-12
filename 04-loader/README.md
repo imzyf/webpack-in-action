@@ -1,16 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [预处理器](#%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8)
-  - [loader](#loader)
-  - [babel-loader](#babel-loader)
-  - [file-loader](#file-loader)
-  - [vue-loader](#vue-loader)
-  - [自定义 loader](#%E8%87%AA%E5%AE%9A%E4%B9%89-loader)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # 预处理器
 
 ## loader

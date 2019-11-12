@@ -1,12 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [代码分片](#%E4%BB%A3%E7%A0%81%E5%88%86%E7%89%87)
-  - [Webpack 4](#webpack-4)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # 代码分片
 
 ## Webpack 4
